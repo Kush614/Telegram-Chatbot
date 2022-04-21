@@ -4,7 +4,7 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 
 bot = telegram_chatbot("config.cfg")
 
-chatbot = ChatBot("Deadpool_chatbot")
+chatbot = ChatBot("Kush_chatbot")
 trainer = ChatterBotCorpusTrainer(chatbot)
 trainer.train("chatterbot.corpus.english")
 
